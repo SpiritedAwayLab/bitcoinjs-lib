@@ -87,7 +87,7 @@ Transaction.OVERWINTER_HASH_PERSON = Buffer.concat([
 ]);
 Transaction.ZIP243_HASH_PERSON = Buffer.concat([
   Buffer.from("ZcashSigHash"),
-  Buffer.from("0b23b9f5", "hex"), // heartwood
+  Buffer.from("a675ffe9", "hex"), // canopy
 ]);
 
 // Sapling note magic values, copied from src/zcash/Zcash.h
