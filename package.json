@@ -24,7 +24,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/missmonacoin/bitcoinjs-lib.git"
+		"url": "git+https://github.com/SpiritedAwayLab/bitcoinjs-lib.git#zcash"
 	},
 	"files": [
 		"src"

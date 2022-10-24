@@ -1,0 +1,18 @@
+{
+    "sourceFile": "package.json",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1666635938827,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1666635938827,
+            "name": "Commit-0",
+            "content": "{\r\n\t\"name\": \"@missmonacoin/bitcoinjs-lib-zcash\",\r\n\t\"version\": \"1.0.6\",\r\n\t\"description\": \"bitcoinjs-lib for mona with simple zcash support\",\r\n\t\"main\": \"./src/index.js\",\r\n\t\"engines\": {\r\n\t\t\"node\": \">=4.0.0\"\r\n\t},\r\n\t\"keywords\": [\r\n\t\t\"bitcoinjs\",\r\n\t\t\"bitcoin\",\r\n\t\t\"browserify\",\r\n\t\t\"javascript\",\r\n\t\t\"bitcoinjs\"\r\n\t],\r\n\t\"scripts\": {\r\n\t\t\"coverage-report\": \"nyc report --reporter=lcov\",\r\n\t\t\"coverage-html\": \"nyc report --reporter=html\",\r\n\t\t\"coverage\": \"nyc --check-coverage --branches 90 --functions 90 mocha\",\r\n\t\t\"integration\": \"mocha test/integration/\",\r\n\t\t\"standard\": \"standard\",\r\n\t\t\"test\": \"npm run standard && npm run coverage\",\r\n\t\t\"unit\": \"mocha\"\r\n\t},\r\n\t\"repository\": {\r\n\t\t\"type\": \"git\",\r\n\t\t\"url\": \"git+https://github.com/SpiritedAwayLab/bitcoinjs-lib.git#zcash\"\r\n\t},\r\n\t\"files\": [\r\n\t\t\"src\"\r\n\t],\r\n\t\"dependencies\": {\r\n\t\t\"bech32\": \"^1.1.2\",\r\n\t\t\"bigi\": \"^1.4.0\",\r\n\t\t\"bip66\": \"^1.1.0\",\r\n\t\t\"bitcoin-ops\": \"^1.3.0\",\r\n\t\t\"bitcoin-script\": \"^0.1.1\",\r\n\t\t\"blake2b\": \"^2.1.2\",\r\n\t\t\"bs58check\": \"^2.0.0\",\r\n\t\t\"create-hash\": \"^1.1.0\",\r\n\t\t\"create-hmac\": \"^1.1.3\",\r\n\t\t\"ecurve\": \"^1.0.0\",\r\n\t\t\"merkle-lib\": \"^2.0.10\",\r\n\t\t\"pushdata-bitcoin\": \"^1.0.1\",\r\n\t\t\"randombytes\": \"^2.0.1\",\r\n\t\t\"safe-buffer\": \"^5.0.1\",\r\n\t\t\"typeforce\": \"^1.11.3\",\r\n\t\t\"varuint-bitcoin\": \"^1.0.4\",\r\n\t\t\"wif\": \"^2.0.1\"\r\n\t},\r\n\t\"devDependencies\": {\r\n\t\t\"async\": \"^2.0.1\",\r\n\t\t\"bip39\": \"^2.3.0\",\r\n\t\t\"bs58\": \"^4.0.0\",\r\n\t\t\"cb-http-client\": \"^0.2.0\",\r\n\t\t\"coinselect\": \"^3.1.1\",\r\n\t\t\"dhttp\": \"^2.3.5\",\r\n\t\t\"minimaldata\": \"^1.0.2\",\r\n\t\t\"mocha\": \"^3.1.0\",\r\n\t\t\"nyc\": \"^10.2.0\",\r\n\t\t\"proxyquire\": \"^1.4.0\",\r\n\t\t\"sinon\": \"^1.12.2\",\r\n\t\t\"standard\": \"^9.0.2\"\r\n\t},\r\n\t\"license\": \"MIT\"\r\n}"
+        }
+    ]
+}
